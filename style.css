@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+* {
+    font-family: 'Quicksand', sans-serif;
+    --bgcolor: #eeeeee;
+    --buttoncolor: #2196f3;
+    --buttoncolor-hover: #42a5f5;
+    --buttoncolor-active: #64b5f6;
+    --navbarcolor: #333333;
+}
+body {background-color: var(--bgcolor);}
+a.button {
+    background-color: var(--buttoncolor);
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3px;
+}
+a.button:hover {
+    background-color: var(--buttoncolor-hover);
+}
+a.button:active {
+    background-color: var(--buttoncolor-active);
+}
+ul.navbar {
+    left: 0px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--navbarcolor);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+ul.navbar li {
+    float: left;
+}
+
+ul.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navbar li a:hover {
+    background-color: var(--buttoncolor-hover);
+}
+ul.navbar li a:active {
+    background-color: var(--buttoncolor-active);
+}
+ul.navbar li.active {
+    background-color: var(--buttoncolor);
+}
+div.spacer {
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 40px;
+}
