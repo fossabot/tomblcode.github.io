@@ -6,12 +6,13 @@
     --buttoncolor-hover: #42a5f5;
     --buttoncolor-active: #64b5f6;
     --navbarcolor: #333333;
+    --textcolor: white;
 }
 body {background-color: var(--bgcolor);}
 a.button {
     background-color: var(--buttoncolor);
     border: none;
-    color: white;
+    color: var(--textcolor);
     padding: 15px 20px;
     text-align: center;
     text-decoration: none;
@@ -19,8 +20,13 @@ a.button {
     font-size: 16px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 3px;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
 }
 a.button:hover {
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: var(--buttoncolor-hover);
 }
 a.button:active {
@@ -36,6 +42,7 @@ ul.navbar {
     position: fixed;
     top: 0;
     width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 ul.navbar li {
@@ -44,12 +51,15 @@ ul.navbar li {
 
 ul.navbar li a {
     display: block;
-    color: white;
+    color: var(--textcolor);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
 }
-
 ul.navbar li a:hover {
     background-color: var(--buttoncolor-hover);
 }
@@ -64,4 +74,10 @@ div.spacer {
     right: 0px;
     width: 100%;
     height: 40px;
+}
+code,xmp {
+    font-family: monospace;
+    background-color: #e5e5e5;
+    border: 1px solid #dddddd;
+    padding: 1px 5px;
 }

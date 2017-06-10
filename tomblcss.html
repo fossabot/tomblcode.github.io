@@ -1,0 +1,57 @@
+<html>
+	<head>
+    <title>Tomblcode</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="https://github.com/tomblcode">My GitHub</a></li>
+        <li><a href="dumbpkg.html">Dumbpkg</a></li>
+        <li class="active"><a href="tomblcss.html">tomblcss</a></li>
+    </ul>
+    <div class="spacer"></div>
+    <h1>tomblcss - my basic css framework</h1>
+    <p>
+        tomblcss is my very basic css framework. It originally started out as me making the css for this website, then, when I realised it felt like I had made the same stuff out of CSS before, it turned into a framework other people could use and I could use in other projects.
+        <br><a href="index.html">Click here</a> to see a demo website.
+    </p>
+    <h2>Installation</h2>
+    <p>
+        You need to put:
+        <xmp><style>
+    * {
+        font-family: 'FONTNAME', sans-serif; /* Pick a font */
+        /* Pick your colors */
+        --bgcolor: #eeeeee;
+        --buttoncolor: #2196f3;
+        --buttoncolor-hover: #42a5f5;
+        --buttoncolor-active: #64b5f6;
+        --navbarcolor: #333333;
+        --textcolor: white; /* Color for text on buttons, navbar etc */
+        color: black; /* Color for main body text */
+    }
+</style></xmp>
+        in the header of your pages, choosing colors and fonts as well as <br>
+        <xmp><link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/tomblcode/tomblcss/master/tombl.css"></xmp>
+    </p>
+    <h2 id="demo">Usage</h2>
+    <p>
+        You can use <code>code</code> or <xmp>xmp</xmp> tags for showing code. <code>code</code> tags for one-liners or <code>xmp</code> tags for larger blocks of code. <br><br>
+        You can make buttons with <code>a</code> tags with the class <code>button</code><br>
+        The code:
+        <xmp><a class="button" href="http://example.com">Example Button</a></xmp>
+        makes the button: 
+        <a class="button" href="http://example.com">Example Button</a><br><br>
+        Using the code:<xmp><ul class="navbar">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="https://github.com/tomblcode">My GitHub</a></li>
+    <li><a href="dumbpkg.html">Dumbpkg</a></li>
+    <li class="active"><a href="tomblcss.html">tomblcss</a></li>
+</ul>
+<div class="spacer"></div></xmp>
+        I made the navbar you can currently see above.
+    </p>
+</body>
+</html>

@@ -2,27 +2,23 @@
 	<head>
 		<title>Tomblcode</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="githubwidget.css">
 		<script src="https://unpkg.com/github-card@1.2.1/dist/widget.js"></script>
-		<style>
-		.github-widget {
-			position: fixed;
-			top: 55px;
-			right: 10px;
-			width: 300px;
-			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-			background-color: white;
-			border-radius: 3px;
-		}</style>
 	</head>
 	<body>
 	<ul class="navbar">
 		<li class="active"><a href="index.html">Home</a></li>
-		<li class="github-link"><a href="https://github.com/tomblcode">My GitHub</a></li>
+		<li><a href="https://github.com/tomblcode">My GitHub</a></li>
+        <li><a href="dumbpkg.html">Dumbpkg</a></li>
+        <li><a href="tomblcss.html">tomblcss</a></li>
 	</ul>
 	<div class="spacer"></div>
-	<p>Hello World!</p>
-	<a href="#" class="button">Hello</a>
-	<a href="#" class="button">World</a>
+	<div class="main-content">
+		<h1>Hello world and welcome to my website!</h1>
+        <p>You might want to check out some of my projects:</p>
+		<a href="dumbpkg.html" class="button">dumbpkg</a>
+		<a href="tomblcss.html" class="button">tomblcss</a>
+	</div>
 	<div class="github-widget" data-username="tomblcode"></div>
 	</body>
 </html>
