@@ -6,6 +6,13 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: white;
     border-radius: 4px;
+    -webkit-transition: width 1s ease-out;
+    -moz-transition: width 1s ease-out;
+    -o-transition: width 1s ease-out;
+    transition: width 1s ease-out;
+}
+.github-widget:hover {
+    width: 100%;
 }
 .main-content {
     width: -webkit-calc(100% - 310px);

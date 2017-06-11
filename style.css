@@ -81,3 +81,6 @@ code,xmp {
     border: 1px solid #dddddd;
     padding: 1px 5px;
 }
+ul.navbar li a.image {
+    padding: 2px 6px;
+}
