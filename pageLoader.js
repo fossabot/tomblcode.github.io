@@ -4,7 +4,7 @@ var content = {
   index: ["Home", "Test value"],
   projects: ["Projects", "<a class='project' href='/#project/os-in-browser'>os-in-browser</a>"],
   project: {
-    "os-in-browser": ["OS in Browser", "<script>location.href = 'https://os-in-browser-orbzylprkp.now.sh';</script>"]
+    "os-in-browser": ["OS in Browser", "<script>location.href = 'https://os-in-browser.now.sh';</script>"]
   }
 };
 
