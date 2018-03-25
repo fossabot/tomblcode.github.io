@@ -2,10 +2,7 @@
 var content = {
   404: ["404", "Page not Found"],
   index: ["Home", "Test value"],
-  projects: ["Projects", "<a class='project' href='/#project/os-in-browser'>os-in-browser</a>"],
-  project: {
-    "os-in-browser": ["OS in Browser", "<script>location.href = 'https://os-in-browser-orbzylprkp.now.sh';</script>"]
-  }
+  projects: ["Projects", "<a class='project' href='https://os-in-browser.now.sh'>os-in-browser</a>"]
 };
 
 function page(hash) {
